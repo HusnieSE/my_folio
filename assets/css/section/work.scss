@@ -1,0 +1,42 @@
+#work-content{
+
+	text-align: center;
+
+	span:before{
+
+		font-size: 5em;
+		opacity: 0.2;
+	}
+
+	h1{
+
+		opacity: 0.2;
+		letter-spacing: .5em;
+		text-transform: uppercase;
+	}
+
+	.company, .position, .address{
+
+		margin-top: 0;
+		text-transform: lowercase;
+		letter-spacing: .8em;
+		font-variant: small-caps;
+		text-decoration: underline;
+	}
+
+	.address{
+
+		letter-spacing: .1em;
+	}
+
+	.add{
+
+		padding-top: 2.5em;
+	}
+
+	.content{
+
+		padding-top: 1em;
+		padding-bottom: 5em;
+	}
+}

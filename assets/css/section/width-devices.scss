@@ -1,0 +1,103 @@
+
+/* For Phones */
+@media (max-width: 768px) {
+
+	h1{
+		font-size: 14px;
+	}
+
+	.content-banner{
+
+		.profile-picture{
+
+			h2{
+
+				color: bisque;
+				font-variant: small-caps;
+				text-transform: none;
+				font-size: 1.5em;
+				margin-bottom: 0;
+			}
+
+			h4{
+
+				color: rgba(240, 248, 255, 0.93);
+				margin-top: 0;
+				font-family: FontAwesome;
+			}
+
+		}
+	}
+
+	.sections-content{
+
+		#work-content{
+
+			.content{
+
+				h2{
+
+					font-size: 24px;
+				}
+
+				.position, .address, .company{
+
+					letter-spacing: .3em;
+					font-size: 24px;
+				}
+			}		
+		}
+
+		#profile-content{
+			.container{
+
+				.elementary-content, .secondary-content, .college-content{
+
+					h2{
+						font-size: 20px;
+					}
+
+					h4{
+						font-size: 16px;
+					}					
+				}
+			}
+		}
+
+		#contact-content{
+
+			h1{
+				font-size: 24px;
+			}
+			/*button{
+
+				width: 100%;
+				text-align: center;
+			}*/
+		}
+	}
+}
+
+/* For Tablets*/
+@media (min-width: 768px) AND (max-width: 992px) {
+
+	h1{
+		font-size: 24px;
+	}
+}
+
+/*For Medium Devices*/
+@media (min-width: 992px) AND (max-width: 1200px) {
+
+	h1{
+		font-size: 24px;
+	}
+}
+
+/*For Desktop*/
+@media (min-width: 1200px) {
+
+	h1{
+		font-size: 34px;
+	}
+}

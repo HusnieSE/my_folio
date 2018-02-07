@@ -1,0 +1,55 @@
+#contact-content{
+	
+	padding-top: 5em;
+	padding-bottom: 2.5em;
+	border-top:  2px #e5e5e5 solid;
+	background: #f0f0f0;
+
+	h1{
+
+		letter-spacing: 0.2em;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	p{
+
+		letter-spacing: 0.2em;
+		font-size: 18px;
+	}
+
+	textarea{
+
+		margin-top: 2em;
+		resize: none;
+	}
+
+	button{
+
+		margin-top: 1em;
+		/*padding-left: 5em;
+		padding-right: 5em;*/
+		padding-top: 1em;
+		padding-bottom: 1em;
+		letter-spacing: .5em;
+		text-transform: uppercase;
+	}
+
+	ul{
+
+		li{
+
+			display: block;
+			padding-top: 1.5em;
+
+		}
+	}
+}
+
+footer{
+
+	padding: 10em;
+	text-align: center;
+	background: rgba(243, 75, 136, 0.71);
+}
